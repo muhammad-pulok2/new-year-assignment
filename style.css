@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+/* common css style */
+.btn_common {
+  height: 55px;
+  width: 150px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 0;
+}
+
+/* header area style */
+
+header {
+  background-image: url("./images/banner/banner3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header_text {
+  text-align: right;
+  padding: 200px 140px 68px 653px;
+}
+.header_slogan {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 65px;
+  text-align: right;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.header_description {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+/* main area style */
+main {
+    max-width: 1072px;
+    margin: auto;
+}
+
+/* belief section style */
+.belief {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 90px 38px;
+}
+.motivation {
+    padding-top: 180px;
+}
+.motiva_text {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  margin-bottom: 20px;
+}
+.descrip_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 20px;
+}
+.motivation ul li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+.motivation ul li i {
+  color: #16d887;
+}
